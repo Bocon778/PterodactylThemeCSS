@@ -1,0 +1,360 @@
+:root {
+    --bg-primary: #121212;
+    --bg-secondary: #1e1e1e;
+    --bg-tertiary: #252525;
+    --bg-hover: #303030;
+    --text-primary: #f0f0f0;
+    --text-secondary: #b0b0b0;
+    --accent: #3d5afe;
+    --border-color: #333333;
+  }
+  
+  html {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+  }
+  
+  body, a, input, textarea, select, button {
+    color: var(--text-primary);
+    transition: background-color 0.2s ease;
+  }
+  
+  .group, .GreyRowBox-sc-1xo9c6v-0 {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+  }
+  
+  div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP,
+  div.grid.grid-cols-10.py-4.border-b-2.border-gray-800.last:rounded-b.last:border-0.group,
+  div.TitledGreyBox___StyledDiv2-sc-gvsoy-1.jRrWLs,
+  div.ContentBox___StyledDiv-sc-mjlt6f-2.iGOcRf,
+  div.Modal___StyledDiv2-sc-9vzni8-3.ekHIsr,
+  div.GreyRowBox-sc-1xo9c6v-0.DatabaseRow___StyledGreyRowBox-sc-1t67zwr-13.iTERJN.gkSIus,
+  div.EditScheduleModal___StyledDiv2-sc-wh9db9-4.fhEpAC,
+  div.EditScheduleModal___StyledDiv4-sc-wh9db9-6.jyDDEO,
+  div.EditScheduleModal___StyledDiv5-sc-wh9db9-7.ueIjC,
+  div.GreyRowBox-sc-1xo9c6v-0.UserRow___StyledGreyRowBox-sc-hg2wjz-0.dyLna-D.dmlaEn,
+  div.CreateBackupButton___StyledDiv2-sc-da8bqw-3.eDncUf,
+  div.TitledGreyBox___StyledDiv-sc-gvsoy-0.oLbNP.StartupContainer___StyledTitledGreyBox-sc-163imy2-1.kRunTE,
+  div.style-module_1DtraXMW.bg-gray-700 {
+    background-color: var(--bg-secondary);
+    border-color: var(--border-color);
+  }
+  
+  /* SubNavigation styling */
+  .SubNavigation-sc-lfuaoi-0.jZPsWO.fade-appear-done.fade-enter-done {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    border-bottom: 1px solid var(--border-color);
+    padding: 0.5rem 0;
+    transition: background-color 0.2s ease;
+  }
+
+  /* SubNavigation items */
+  .SubNavigation-sc-lfuaoi-0.jZPsWO a {
+    color: var(--text-secondary);
+    transition: color 0.2s ease;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+  }
+
+  .SubNavigation-sc-lfuaoi-0.jZPsWO a:hover {
+    color: var(--text-primary);
+    background-color: var(--bg-hover);
+  }
+
+  .SubNavigation-sc-lfuaoi-0.jZPsWO a.active {
+    color: var(--accent);
+    background-color: var(--bg-tertiary);
+  }
+  
+  /* Status indicators and navigation */
+  a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fRwFrz.DashboardContainer___StyledServerRow-sc-1topkxf-2,
+  a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D.fwbDSe.DashboardContainer___StyledServerRow-sc-1topkxf-2.jbVWLN,
+  a.GreyRowBox-sc-1xo9c6v-0.ScheduleContainer___StyledGreyRowBox-sc-dlqnx9-2.dyLna-D.bppajE,
+  a.GreyRowBox-sc-1xo9c6v-0.ServerRow__StatusIndicatorBox-sc-1ibsw91-2.dyLna-D {
+    background-color: var(--bg-secondary);
+    border-left: 3px solid var(--accent);
+  }
+  
+  /* Active elements and focus states */
+  .style-module_35MPv1CD.active,
+  .style-module_1WqkLT9X {
+    background-color: var(--bg-tertiary) !important;
+    border-left: 2px solid var(--accent);
+  }
+  
+  /* Hover states */
+  .style-module_1WqkLT9X:hover,
+  .style-module_35MPv1CD.active:hover,
+  label.PermissionRow__Container-sc-1h899cn-0.icxFlO:hover,
+  div.style-module_2Vp6MaXq.bg-gray-600.cursor-pointer:hover,
+  button.style-module_4LBM1DKx.style-module_3kBDV_wo.style-module_Yp7-2Fw-.flex-1:hover {
+    background-color: var(--bg-hover) !important;
+  }
+  
+  /* Form elements */
+  input.Input-sc-19rce1w-0.jqTCDz,
+  input.peer.style-module_3TDo--Tn,
+  textarea.Input__Textarea-sc-19rce1w-1.kKFWRA,
+  select.Select-sc-17exaqp-0.dupyoa {
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+  }
+  
+  div.App___StyledDiv-sc-2l91w7-0.fnfeQw {
+    background-image: none;
+    background-color: var(--bg-primary);
+  }
+  
+  /* Main application structure */
+  div.grid.grid-cols-6.gap-2.md:gap-4.col-span-4.lg:col-span-1.order-last.lg:order-none,
+  div.style-module_2XbmHEcn.group,
+  div.w-full.bg-neutral-900.shadow-md.overflow-x-auto,
+  div.GreyRowBox-sc-1xo9c6v-0.iTERJN.flex-wrap.md:flex-nowrap.mt-2,
+  div.flex.justify-end.space-x-4.mt-4.w-full.md:mt-0.md:w-48 {
+    background-color: var(--bg-secondary);
+  }
+  
+  /* Navigation Bar */
+  .w-full.bg-neutral-900.shadow-md.overflow-x-auto {
+    background-color: var(--bg-primary);
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo and header */
+  #logo a {
+    color: var(--text-primary);
+    font-weight: 600;
+    transition: color 0.2s ease;
+  }
+  
+  #logo a:hover {
+    color: var(--accent);
+    text-decoration: none;
+  }
+  
+  /* Navigation links container */
+  .NavigationBar__RightNavigation-sc-tupl2x-0 {
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  
+  /* Navigation icons */
+  .navigation-link svg,
+  .NavigationBar__RightNavigation-sc-tupl2x-0 a svg,
+  .NavigationBar__RightNavigation-sc-tupl2x-0 button svg {
+    width: 1.2rem;
+    height: 1.2rem;
+    color: var(--text-secondary);
+    transition: color 0.2s ease, transform 0.2s ease;
+  }
+  
+  .navigation-link:hover svg,
+  .NavigationBar__RightNavigation-sc-tupl2x-0 a:hover svg,
+  .NavigationBar__RightNavigation-sc-tupl2x-0 button:hover svg {
+    color: var(--text-primary);
+    transform: scale(1.1);
+  }
+  
+  /* Active navigation link */
+  .NavigationBar__RightNavigation-sc-tupl2x-0 a.active svg {
+    color: var(--accent);
+  }
+  
+  /* User avatar */
+  .NavigationBar__RightNavigation-sc-tupl2x-0 a span.flex.items-center {
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+  
+  .NavigationBar__RightNavigation-sc-tupl2x-0 a:hover span.flex.items-center {
+    border-color: var(--accent);
+  }
+  
+  /* Logout button */
+  .NavigationBar__RightNavigation-sc-tupl2x-0 button {
+    background: transparent;
+    border: none;
+    padding: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+    border-radius: 0.25rem;
+  }
+  
+  .NavigationBar__RightNavigation-sc-tupl2x-0 button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  /* Fade container */
+  .Fade__Container-sc-1p0gm8n-0 {
+    background-color: transparent;
+  }
+
+  .Fade__Container-sc-1p0gm8n-0,
+  .Fade__Container-sc-1p0gm8n-0.hcgQjy {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Additional styling for buttons and interactive elements */
+  button, .btn, [type="button"] {
+    background-color: var(--bg-tertiary);
+    border: 1px solid var(--border-color);
+    color: var(--text-primary);
+  }
+  
+  button:hover, .btn:hover, [type="button"]:hover {
+    background-color: var(--bg-hover);
+  }
+  
+  /* Navigation and menu elements */
+  .style-module_2Vp6MaXq.bg-gray-600 {
+    background-color: var(--bg-secondary);
+  }
+
+  /* Terminal styles */
+  .style-module_1n_DiqmT.style-module_1AMtO9lt {
+    background-color: var(--bg-primary);
+    border-radius: 0.375rem;
+    overflow: hidden;
+    margin: 1rem 0;
+  }
+
+  .terminal.xterm {
+    padding: 1rem;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    font-size: 12px;
+    line-height: 1.4;
+  }
+
+  .xterm-viewport {
+    background-color: var(--bg-primary) !important;
+    border: 1px solid var(--border-color);
+    border-radius: 0.25rem;
+  }
+
+  .xterm-screen {
+    opacity: 0.9;
+  }
+
+  /* CPU Load Graph styles */
+  .style-module_2XbmHEcn.group {
+    background-color: var(--bg-secondary);
+    border: 1px solid var(--border-color);
+    border-radius: 0.375rem;
+    padding: 0.5rem;
+    margin: 1rem 0;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .style-module_2XbmHEcn.group:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .style-module_2XbmHEcn h3.font-header {
+    color: var(--text-secondary);
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .style-module_2XbmHEcn.group:hover h3.font-header {
+    color: var(--text-primary);
+  }
+
+  .style-module_2XbmHEcn canvas {
+    background-color: transparent;
+    margin-top: 0.5rem;
+    border-radius: 0.25rem;
+  }
+
+  .style-module_1n_DiqmT.style-module_1AMtO9lt + .style-module_2XbmHEcn.group {
+    margin-top: 2rem;
+  }
+
+  /* Main navigation container */
+  .mx-auto.w-full.flex.items-center.h-[3.5rem].max-w-[1200px] {
+    background-color: var(--bg-primary);
+    padding: 0 1rem;
+  }
+
+  /* Navigation items and icons */
+  .NavigationBar__RightNavigation-sc-tupl2x-0.iyXSLu {
+    background-color: transparent;
+  }
+
+  /* Logo section */
+  #logo {
+    background-color: transparent;
+  }
+
+  #logo a {
+    font-size: 1.5rem;
+    color: var(--text-primary);
+    transition: color 0.2s ease;
+  }
+
+  #logo a:hover {
+    color: var(--accent);
+  }
+
+  /* Footer content */
+  .PageContentBlock___StyledP-sc-kbxq2g-3.dcHyfd {
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+    padding: 1rem;
+    text-align: center;
+    border-top: 1px solid var(--border-color);
+  }
+
+  .PageContentBlock___StyledA-sc-kbxq2g-4.eOGAqX {
+    color: var(--text-primary);
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+
+  .PageContentBlock___StyledA-sc-kbxq2g-4.eOGAqX:hover {
+    color: var(--accent);
+  }
+
+  /* Welcome message styling */
+  .DashboardContainer___StyledDiv-sc-1topkxf-0.jEGID {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  /* Second footer styling */
+  .PageContentBlock___StyledP2-sc-kbxq2g-5.eJOCZx {
+    background-color: var(--bg-primary);
+    color: var(--text-secondary);
+    text-align: center;
+  }
+
+  .PageContentBlock___StyledA2-sc-kbxq2g-6.bRGmDD {
+    color: var(--text-primary);
+    text-decoration: none;
+  }
+
+  .PageContentBlock___StyledA2-sc-kbxq2g-6.bRGmDD:hover {
+    color: var(--accent);
+  }
+
+  .DashboardContainer___StyledDiv-sc-1topkxf-0.jEGID {
+    background-color: var(--bg-primary);
+}
+
+.ContentContainer-sc-x3r2dw-0.PageContentBlock___StyledContentContainer-sc-kbxq2g-0.jyeSuy.HeRWk,
+.fade-appear-done.fade-enter-done {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
