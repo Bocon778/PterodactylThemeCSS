@@ -358,3 +358,25 @@
     background-color: var(--bg-primary);
     color: var(--text-primary);
 }
+
+  /* Server Console styles */
+  .style-module_1n_DiqmT.style-module_1AMtO9lt {
+    background-color: var(--bg-primary) !important;
+    transition: background-color 0.2s ease;
+    border-radius: 0.375rem;
+    border: 1px solid var(--border-color);
+  }
+  
+  .relative.style-module_1AMtO9lt {
+    background-color: var(--bg-primary);
+    border-radius: 0.375rem;
+    overflow: hidden;
+    transition: background-color 0.2s ease;
+  }
+  
+  /* Terminal viewport border override */
+  .xterm-viewport {
+      border: none !important;
+      background-color: transparent !important;
+  }
+  
